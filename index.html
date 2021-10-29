@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./style./css" />
+    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
-<!-- navigation -->
+    <title>Run buddy</title>
+  </head>
+  <body>
+    <!-- navigation -->
 </header> 
-<section>
-<div>
-
-</div>
-</section>
 <h1>
  <a href="/">RUN BUDDY</a>
   </h1>
-    <nav><!-- Unordered list element-->
-        <ul>
+    <header>
+    
+        <section class="hero">
+      <!-- Unordered list element-->
+              <ul>
           <!-- List item element -->
-          <li>
+               <li>
             <!-- Anchor element -->
-            <a href="#what-we-do">wha we do</a>
+                 <a href="#what-we-do">wha we do</a>
           </li>
           <li>
             <a href="what-you-do">What You Do</a>
@@ -31,15 +32,21 @@
           </li>   
         </ul>        
     </nav>
+    </header>
     <h3>Get Started Today</h3>
     <p>Fill out this form and one of our trainers will schedule a consult</p>
     <!-- Add form element -->
-    <form><label for="name">Enter full name:</label>
-      <input type="text" placeholder="Your Name" name="name" id="name" /></form>
-        <label for="email">Enter email address:</label>
-        <input type="email" placeholder="Email Address" name="email" id="email" />
-        <label for="phone">Enter a telephone number:</label>
-        <input type="tel" placeholder="Phone Number" name="phone" id="phone"/></form>
+
+    <form>
+      <div 
+      class="hero-form">
+    </div>
+      <label for="name">Enter full name:</label>
+      <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+      <label for="email">Enter email address:</label>
+      <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
+      <label for="phone">Enter a telephone number:</label>
+      <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
         <form>
           <label for="name">Enter full name:</label>
           <input type="text" placeholder="Your Name" name="name" id="name" />
@@ -55,8 +62,7 @@
             <label for="trainer-no">No</label>
           </p>
           <p>
-            <label for="checkbox" >
-              I acknowledge that I am at least 18 years of age.
+            <label for="checkbox" >I acknowledge that I am at least 18 years of age.
             </label>
             <input type="checkbox" name="age-confirm" id="checkbox" />
           </p>
@@ -67,15 +73,38 @@
       </div>
     </section>
     <!-- end hero -->
+
         </form>
-
+      </header>
+    </header>
+    <!-- hero/jumbotron -->
+      <section>
+      </section>
+    
+    <!--"what we do" section -->
+    <section>
+        <h2>What We Do</h2>
+    </section>
+    
+    <!-- "what you do" section -->
+    <section>
+        <h2>What You Do</h2>
+    </section>
+    
+    <!-- "meet the trainers" section-->
+    </section>
+        <h2>Meet The Trainers</h2>
+    </section>
+    <!-- "reach out" section -->
+    <section>
+       <h2>Reach Out</h2>
+    
 <!-- footer -->
-</footer>
-
-<h2>
+<footer>
+    <h2>❤️ Made with love by Run Buddy.</h2>
     <div>
     <a href="#">Read Our Privacy Policy</a><br />
     &copy; 2019 Run Buddy, Inc.
   </div>
-   ❤️ Made with love by Run Buddy.</h2>
-</footer>
+</body>
+</html>
